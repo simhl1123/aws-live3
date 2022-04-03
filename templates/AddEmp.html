@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Employee Information</title>
+</head>
+<center>
+    <font color="black" size="4" style="font-family: avenir">
+
+        <h1 style="color: DodgerBlue; font-family: Fantasy">Employee Database</h1>
+
+        <body bgcolor="lightgrey">
+
+            <form action="/addemp" autocomplete="on" method="POST" enctype="multipart/form-data">
+
+                <br>
+
+                <br> Employee ID:<br> <input style="height:25px;font-size:14pt; color:grey;" type="number" name="emp_id" autofocus size="40"><br><br> Name:
+
+                <br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="Name"><br><br> Payscale:
+
+                <br> <input style="height:25px;font-size:14pt;color:grey;" type="number" name="Payscale"><br><br> Department:
+
+                <br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="Department"><br><br> Hire date:<br> <input style="height:25px;font-size:14pt;color:grey;" type="number" name="Hire_date"><br><br> Image: <input type=file name="emp_image_file"
+                    style="height:25px;font-size:14pt;color:grey;"> <br><br>
+
+                <button type="submit" style="background: grey; height: 45px; width: 200px; color: white; size: 5; font:oblique;">UPDATE DATABASE</button>
+
+            </form>
+            <a href="/about">About Us</a>
+        </body>
+
+    </font>
+</center>
+
+</html>
